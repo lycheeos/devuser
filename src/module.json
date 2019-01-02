@@ -1,0 +1,12 @@
+{
+	"definitionVersion": 1,
+	"id": "devuser",
+	"name": "Development User",
+	"description": "Provides a devuser:devuser account.",
+    "version": "1.0.0-alpha",
+    "dependencies": {
+        "base": {
+            "version": "1.0+.0+"
+        }
+    }
+}

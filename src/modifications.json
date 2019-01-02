@@ -1,0 +1,6 @@
+{
+    "/etc/passwd": "append",
+    "/etc/subuid": "append",
+    "/etc/subgid": "append",
+    "/etc/shadow": "append"
+}
