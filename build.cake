@@ -17,7 +17,7 @@ Task("Build").Does(() =>
 {
     Information("Copying src files");
     RunCommands($"sudo mkdir -p {vagrantBuildDir}",
-                $"sudo rsync -av --delete /vagrant/{sourceDir}/ {vagrantBuildDir}/");
+                $"sudo rsync -av --delete --exclude tools /vagrant/{sourceDir}/ {vagrantBuildDir}/");
 
     Information("Starting build ");
     RunCommands($"cd {vagrantBuildDir}",
